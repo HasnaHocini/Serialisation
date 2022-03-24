@@ -1,5 +1,5 @@
 from Etudiant import *
-
+print("Sérialisation")
 #Sérialiser l'objet instancié
 etud=Etudiant("1234567","Hasna","informatique")
 etud.serialiser("FichierSerialiser.json")
